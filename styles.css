@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 400px;
+  background: #a8a1e4;
+  margin: 12px auto;
+  padding: 10px;
+}
+
+.title {
+  font-size: 34px;
+  color: rgb(91, 122, 29);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(187, 32, 218);
+}
+
+.home {
+  margin: 0 auto;
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
